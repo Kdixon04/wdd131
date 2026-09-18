@@ -2,7 +2,7 @@ header{
     text-align: center;
 }
 
-h2{
+h5{
     color: rgb(0, 113, 251);
 }
 
@@ -16,4 +16,8 @@ p {
 
 ol{
     line-height: 2.0;
+}
+
+#italics{
+    font-style: italic;
 }
