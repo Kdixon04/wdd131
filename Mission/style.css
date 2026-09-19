@@ -2,6 +2,7 @@ header{
     text-align: center;
     margin: 0 auto;
     padding: 20px 30px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 h5{
@@ -9,17 +10,21 @@ h5{
 }
 
 body{
-    padding: 110px;
     margin: auto;
+    padding-top: 30px;
+    padding-left: 190px;
+    padding-right: 200px;
+    max-width: 600px;
 }
 
 main{
-    padding-left: 90px;
-    max-width: 90%;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 p {
-    line-height: 1.8;
+    line-height: 1.4;
 }
 
 ol li{
