@@ -1,13 +1,16 @@
 header{
     text-align: center;
+    margin: 0 auto;
+    padding: 50px 90px;
 }
 
 h5{
-    color: rgb(0, 113, 251);
+    color: rgb(0, 130, 251);
 }
 
 body{
-    padding: 10%;
+    padding: 110px;
+    margin: auto;
 }
 
 p {
