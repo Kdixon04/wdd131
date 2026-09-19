@@ -1,7 +1,7 @@
 header{
     text-align: center;
     margin: 0 auto;
-    padding: 50px 90px;
+    padding: 20px 30px;
 }
 
 h5{
@@ -11,6 +11,11 @@ h5{
 body{
     padding: 110px;
     margin: auto;
+}
+
+main{
+    padding-left: 90px;
+    max-width: 90%;
 }
 
 p {
