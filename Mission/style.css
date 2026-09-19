@@ -35,3 +35,12 @@ ol li{
 #italics{
     font-style: italic;
 }
+
+img{
+    padding-top: 20px;
+    width: 20%;
+}
+
+footer{
+    text-align: center;
+}
