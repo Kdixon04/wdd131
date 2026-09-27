@@ -13,10 +13,10 @@ function changeTheme() {
         document.body.style.backgroundColor = "grey";
         document.querySelector("p").style.color = "white";
         document.querySelector("h1").style.color = "white";
-        document.querySelector("h5").style.color = "white";
+        document.querySelector("h5").style.color = "#199cff";
         document.getElementById("italics").style.color = "white";
         document.querySelector("ol").style.color = "white";
-        document.querySelector("img") = "url('byui-logo-white.png')";
+        document.getElementById("byui-logo") = "url('byui-logo-white.png')";
     } else {
         // code for changes to colors and logo
     }
