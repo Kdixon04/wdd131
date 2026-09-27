@@ -11,8 +11,8 @@ function changeTheme() {
     if (current == 'dark') {
         // code for changes to colors and logo
         document.body.style.backgroundColor = "grey";
-        document.getElementById("p").style.color = "white";
-
+        document.querySelector("p").style.color = "white";
+        document.querySelector("h1","h2").style.color = "white";
     } else {
         // code for changes to colors and logo
     }
