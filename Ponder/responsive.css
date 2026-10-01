@@ -47,6 +47,11 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
-
+    main {
+        /*Flex only controls one axis at a time*/
+        /*grid handles multiple axis at the same time*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
           
