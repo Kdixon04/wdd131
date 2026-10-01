@@ -4,3 +4,27 @@ div {
     height: 300px;
     margin: 20px;
 }
+
+body {
+    /*To help adjust the direction of the boxes*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Mobile is the priorty, desktop is secondary*/
+
+/*Without screen and, code assume @media applies to all*/
+/*When the screen is 600px and LARGER*/
+@media screen and (min-width:600px) {
+    body{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    div {
+        height: 400px;
+        width: 400px;
+        background-color: red;
+    }
+}
