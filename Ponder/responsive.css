@@ -53,5 +53,20 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    nav a {
+        display: inline-block;
+    }
+
+    nav {
+        display: flex;
+        justify-content: end;
+    }
+
+    /* Challenge: get rid of the hamburger menu */
+    .menu-btn {
+        display: none;
+    }
 }
           
+/* Challenge: Media query for large screen devices*/
