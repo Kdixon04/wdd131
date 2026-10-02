@@ -69,4 +69,15 @@ footer {
     }
 }
           
-/* Challenge: Media query for large screen devices*/
+@media (min-width: 1000px) {
+    /* Challenge: Media query for large screen devices*/
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    header,
+    main,
+    footer {
+        max-width: 1400px;
+    }
+}
