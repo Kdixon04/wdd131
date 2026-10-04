@@ -17,9 +17,23 @@ header{
     padding: 1rem;
 }
 
+img{
+    display: block;
+    margin: auto;
+    padding: 2%;
+    
+    
+}
+
 @media screen and(min-width: 600px) {
     main{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    img{
+        width: 20%;
+        display: block;
+        margin: 50px auto;
     }
 }
