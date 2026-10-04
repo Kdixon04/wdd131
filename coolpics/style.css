@@ -7,6 +7,10 @@ h2, footer{
     text-align: center;
 }
 
+/* nav{
+    color: white;
+} */
+
 body{
     background-color: rgb(199, 199, 199);
 }
@@ -19,7 +23,6 @@ header{
 
 img{
     display: grid;
-    object-fit: cover;
     height: auto;
     width: auto;
     margin: 0 auto;
@@ -32,6 +35,10 @@ img{
         grid-template-columns: 1fr;
     }
 
+    /* nav{
+        display: none;
+    } */
+
 }
 
 @media screen and (min-width: 800px) {
@@ -39,6 +46,9 @@ img{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    /* nav{
+        display:none;
+    } */
 }
 
 @media screen and (min-width: 1000px) {
@@ -46,4 +56,5 @@ img{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
 }
