@@ -17,7 +17,7 @@ header{
     padding: 1rem;
 }
 
-img{
+.images{
     display: grid;
     width: 50%;
     height: auto;
@@ -28,14 +28,14 @@ img{
 }
 
 @media screen and(min-width: 600px) {
-    main{
+    .images{
         grid-template-columns: 1fr;
     }
 
 }
 
 @media screen and (min-width: 800px) {
-    main{
+    .images{
         grid-template-columns: 1fr 1fr;
     }
 }
