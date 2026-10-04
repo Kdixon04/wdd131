@@ -28,14 +28,16 @@ img{
 }
 
 @media screen and (min-width: 600px) {
-    img{
+    main{
+        display: grid;
         grid-template-columns: 1fr;
     }
 
 }
 
 @media screen and (min-width: 800px) {
-    img{
+    main{
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
