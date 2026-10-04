@@ -18,17 +18,24 @@ header{
 }
 
 img{
-    display: block;
-    margin: auto;
-    padding: 2%;
+    display: grid;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5%;
     
     
 }
 
 @media screen and(min-width: 600px) {
     main{
-        display: grid;
         grid-template-columns: 1fr;
     }
 
+}
+
+@media screen and (min-width: 800px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
 }
