@@ -31,9 +31,4 @@ img{
         grid-template-columns: 1fr;
     }
 
-    img{
-        width: 20%;
-        display: block;
-        margin: 50px auto;
-    }
 }
