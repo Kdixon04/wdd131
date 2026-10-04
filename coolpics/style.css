@@ -23,8 +23,7 @@ img{
     height: auto;
     margin: 0 auto;
     padding: 5%;
-    
-    
+    border: 5px solid white;
 }
 
 @media screen and (min-width: 600px) {
