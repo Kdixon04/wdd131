@@ -9,7 +9,7 @@ menuButton.addEventListener("click", (e) => {
     //3. toggle whether the links are displayed or not
 
     //4. Toggle X animation for menu button
-    menuButton.classList.toggle
+    menuButton.classList.toggle('change');
 });
 
 
