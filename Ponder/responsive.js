@@ -3,7 +3,8 @@ let menuButton = document.querySelector('.menu-btn');
 
 // 2. Add an even listener to the menu button
 menuButton.addEventListener("click", function(event){
-    
+    // do this thing
+    // do another thing
 });
 
 // named function
