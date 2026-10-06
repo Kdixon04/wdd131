@@ -25,6 +25,6 @@ menuButton.addEventListener("click", (e) => {
 
 
 // named function
-function toggleMenuLinks(event) {
+// function toggleMenuLinks(event) {
 
-}
+// }
