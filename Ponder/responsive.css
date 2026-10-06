@@ -41,7 +41,8 @@ nav a:hover {
 
 .menu-btn div {
     /* this is what does the animation */
-    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out,
+                opacity 1s ease-in-out;
 }
 
 .bar1, .bar2, .bar3 {
