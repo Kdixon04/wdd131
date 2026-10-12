@@ -1,4 +1,4 @@
-let gallerySection = document.querySelector(".gallery")
+let gallerySection = document.querySelector("img")
 
 
 gallerySection.addEventListener('click', (event) =>{
