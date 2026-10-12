@@ -1,7 +1,7 @@
 // 1. Grab our HTML elements
 let gallerySection = document.querySelector(".gallery");
 let modal = document.querySelector("diaglog");
-let modalImg = modal.querySelector("img");
+let modalImg = modal.querySelector("img"); // broken
 const closeButton = modal.querySelector('.close-viewer');
 
 // 2. Add an event listener, when img clicked open modal
