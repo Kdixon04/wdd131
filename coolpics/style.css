@@ -21,39 +21,36 @@ header{
     padding: 1rem;
 }
 
-img{
-    display: grid;
+#gallery img{
+    display: block;
     height: auto;
-    width: auto;
+    width: 100%;
+    max-width: 350px;
     margin: 0 auto;
-}
+    border-color: aliceblue;
+} 
 
-@media screen and (min-width: 600px) {
-    main{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    /* nav{
-        display: none;
-    } */
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 1000px;
+    gap: 20px;
 
 }
 
 @media screen and (min-width: 800px) {
-    main{
+    #gallery{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
     }
-    /* nav{
-        display:none;
-    } */
 }
 
 @media screen and (min-width: 1000px) {
-    main{
+    #gallery{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
     
 }
