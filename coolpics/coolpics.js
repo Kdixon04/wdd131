@@ -1,15 +1,17 @@
-let gallerySection = document.querySelector("img")
-
+let gallery = document.querySelector("#gallery")
+let modal = document.querySelector("#image-viewer");
+let modalImg = modal.querySelector("img"); // broken
+const closeButton = modal.querySelector('.close-viewer');
 
 gallerySection.addEventListener('click', (event) =>{
-    console.log(event.target.src);
-    // check to see if something is undefined
-    if(event.target.src != undefined){
+    if(event.target.src != "IMG") return;
         // set the src image of modal
-        modalImg.src = event.target.src.replace("-sm", "-full");
-
+        modalImg.src = event.target.src;
+        modalImg.alt = event.target.alt;
          // display modal
         modal.showModal();
-    }
-    
+    });
+
+closeButton.addEventListener("click", () =>{
+    modal.close
 });
