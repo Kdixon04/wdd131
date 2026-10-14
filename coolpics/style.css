@@ -27,7 +27,8 @@ header{
     width: 100%;
     max-width: 350px;
     margin: 0 auto;
-    border-color: aliceblue;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px black;
 } 
 
 #gallery {
