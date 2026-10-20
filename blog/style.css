@@ -35,3 +35,13 @@ img{
     align-self: center;
     
 }
+
+@media screen and (min-width: 1000px){
+    h5 #stars{
+        grid-row: 1/2;
+    }
+
+    
+    
+
+}
