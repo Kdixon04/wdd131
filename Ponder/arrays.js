@@ -5,7 +5,7 @@ let courses = ["Wdd131", "Wdd130", "Cse110", "Cse210"];
 console.log(courses[0]);
 console.log(courses[3]);
 // if you don't know the last array but you want to call it
-console.log(course[courses.length - 1]);
+// console.log(course[courses.length - 1]);
 
 // normal for i loop
 for(let i = 0; i < courses.length; i++) {
