@@ -62,4 +62,4 @@ coursesArrayOfObjects.forEach((course) => {
     `
     // add that div to the body
     body.innerHTML += courseDiv;
-})
+});
