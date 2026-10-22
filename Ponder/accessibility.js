@@ -58,6 +58,6 @@ const movies = [
         </div>
     `
     // add that div to the body
-    body.innerHTML += moviesDiv;
+    main.innerHTML += moviesDiv;
     });
           
