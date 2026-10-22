@@ -46,18 +46,16 @@ const movies = [
 
         // Code for going through each movie and creating content for that movie
         let moviesDiv = `
-        <div>
-            <h2>${movies.title}</h2>
-            <p>date: ${movies.date}</p>
-            <p>description: ${movies.description}</p>
-            <p>imgSrc: ${movies.imgSrc}</p>
-            <p>imgAlt: ${movies.imgAlt}</p>
-            <p>ages: ${movies.ages}</p>
-            <p>genre: ${movies.genre}</p>
-            <p>stars: ${movies.stars}</p>
-        </div>
+        <article class="movie">
+      <h2>${movie.title}</h2>
+      <img src="${movie.imgSrc}" alt="${movie.imgAlt}">
+      <p><strong>Release Date:</strong>${movie.date} </p>
+      <p><strong>Recommended Age:</strong>${movie.ages}</p>
+      <p><strong>Genre:</strong> ${movie.genre}</p>
+      <p><strong>Rating:</strong> <span>${movie.stars}</span></p>
+      <p id='desc'>${movie.description}</p>
+    </article>
     `
-    // add that div to the body
    document.getElementById("movie-list").innerHTML += moviesDiv;
     });
           
