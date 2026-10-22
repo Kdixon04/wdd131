@@ -45,6 +45,19 @@ const movies = [
     movies.forEach(movie => {
 
         // Code for going through each movie and creating content for that movie
-    
+        let moviesDiv = `
+        <div>
+            <h2>${movies.title}</h2>
+            <p>date: ${movies.date}</p>
+            <p>description: ${movies.description}</p>
+            <p>imgSrc: ${movies.imgSrc}</p>
+            <p>imgAlt: ${movies.imgAlt}</p>
+            <p>ages: ${movies.ages}</p>
+            <p>genre: ${movies.genre}</p>
+            <p>stars: ${movies.stars}</p>
+        </div>
+    `
+    // add that div to the body
+    body.innerHTML += moviesDiv;
     });
           
