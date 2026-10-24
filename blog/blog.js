@@ -54,6 +54,6 @@ articles.forEach(article => {
       <p id='desc'>${article.description}</p>
     </article>
     `
-   document.getElementById("books").innerHTML += articleDiv;
+   document.getElementById("book-list").innerHTML += articleDiv;
     });
                 
