@@ -39,4 +39,21 @@ const articles = [
 		stars: "⭐⭐⭐⭐⭐"
 	}
 ];
+
+articles.forEach(article => {
+
+        
+        let articleDiv = `
+        <article class="article">
+      <h2>${article.title}</h2>
+      <img src="${article.imgSrc}" alt="${article.imgAlt}">
+      <p><strong>Release Date:</strong>${article.date} </p>
+      <p><strong>Recommended Age:</strong>${article.ages}</p>
+      <p><strong>Genre:</strong> ${article.genre}</p>
+      <p><strong>Rating:</strong> <span>${article.stars}</span></p>
+      <p id='desc'>${article.description}</p>
+    </article>
+    `
+   document.getElementById("books").innerHTML += articleDiv;
+    });
                 
