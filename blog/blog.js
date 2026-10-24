@@ -43,15 +43,19 @@ const articles = [
 articles.forEach(article => {
 
         
-        let articleDiv = `
-        <article class="article">
+    let articleDiv = `
+    <article class="article">
+        <section class="details">
+            <p><strong>Genre:</strong> ${article.genre}</p>
+            <p><strong>Recommended Age:</strong>${article.ages}</p>
+            <p><strong>Release Date:</strong>${article.date} </p>
+            <p><strong>Rating:</strong> <span>${article.stars}</span></p>
+        </section>
+        <section class="review">
       <h2>${article.title}</h2>
       <img src="${article.imgSrc}" alt="${article.imgAlt}">
-      <p><strong>Release Date:</strong>${article.date} </p>
-      <p><strong>Recommended Age:</strong>${article.ages}</p>
-      <p><strong>Genre:</strong> ${article.genre}</p>
-      <p><strong>Rating:</strong> <span>${article.stars}</span></p>
       <p id='desc'>${article.description}</p>
+        </section>
     </article>
     `
    document.getElementById("book-list").innerHTML += articleDiv;
