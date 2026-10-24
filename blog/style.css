@@ -10,38 +10,71 @@ h1{
     list-style: none;
     justify-content: right;
     padding-right: 80px;
+    border-top: 2px solid #f0c28d;
+    border-bottom: 2px solid #f0c28d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.books{
+    max-width: 500px;
+    margin: 30px auto;
+}
+.details{
+    text-align: right;
+    border-top: 2px solid #f0c28d;
+    padding-top: 10px;
 }
 body{
     display: flex;
     flex-direction: column;
 }
 h2{
-    color: rgb(255, 0, 13);
-    align-self: center;
+    color: #a51e37;
+    /* align-self: center; */
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 h5{
     grid-row: 3/4;
-    padding-left: 87%;
+    margin: 0 0 12px;
 }
 #stars{
-    grid-row: 3/4;
+    grid-row: 1/2;
     padding-right: 5% ;
     align-self: flex-end;
 }
 img{
     grid-row: 4/5;
-    width: fit-content;
-    align-self: center;
-    
+    width: 150px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
-
+.date{
+    font-style: italic;
+    font-weight: normal;
+}
+#menu a{
+    color: #ac1f39;
+    text-decoration: none;
+}
 @media screen and (min-width: 1000px){
-    h5 #stars{
-        grid-row: 1/2;
+    .books{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 40px;
+        max-width: 900px;
     }
-
-    
-    
-
+    .details{
+        border-top: none;
+        border-right: 2px solid #f0c28d;
+        padding-right: 40px;
+    }
+    h2{
+        text-align: left;
+    }
+    img{
+        width: 280px;
+    }
 }
