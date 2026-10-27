@@ -8,9 +8,10 @@
 <body>
     <form>
         <label for="ssn">Enter your social security number</label>
-        <input type="text" id="ssn" placeholder="111-11-1111" name="ssn" required="true">
+        <input type="text" id="ssn" placeholder="111-11-1111" name="ssn" required="true" maxlength=9 minlength=9>
         <input type="search" name="search" required>
-        <input type="password" placeholder="password" name="password">
+        <input type="password" placeholder="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Be smart silly, make a decent password">
         <input type="tel" name="gimme your digits">
         <input type="color">
         <input type="file">
