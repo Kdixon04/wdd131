@@ -22,8 +22,15 @@ form.addEventListener("submit", (event) =>{
     // prevent default stops the page from reloading 
     // AND from dumping value as query params
     event.preventDefault();
-    
+
     console.log(form.firstName.value);
+    console.log(form.lastName.value);
+
+    //console.log the email address that is typed in - Challenge
+    console.log(form.email.value);
+
+    // also can grab the values from the event.target
+    console.log(event.target.email.value);
 });
 
   // Show the travel notes on the form if they are choosing many campuses and require it
