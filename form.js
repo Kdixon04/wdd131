@@ -9,6 +9,23 @@ const campusBoxes = document.querySelectorAll('input[name="campus"]');
 function updateNotesField() {
   const value = travelRange.value;
 
+
+// Grab the input from the user - IN CLASS
+// Grab the form elements from the DOM
+const form = document.querySelector("#fsyForm");
+
+// grab the user input from the form??
+
+// run a function when the user submits the form
+form.addEventListener("submit", (event) =>{
+
+    // prevent default stops the page from reloading 
+    // AND from dumping value as query params
+    event.preventDefault();
+    
+    console.log(form.firstName.value);
+});
+
   // Show the travel notes on the form if they are choosing many campuses and require it
   
 }
