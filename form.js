@@ -31,6 +31,8 @@ form.addEventListener("submit", (event) =>{
 
     // also can grab the values from the event.target
     console.log(event.target.email.value);
+
+
 });
 
   // Show the travel notes on the form if they are choosing many campuses and require it
@@ -69,7 +71,13 @@ form.addEventListener("submit", function (event) {
 
   // Validate the input
   // Let the user know to select at least one campus
-
+    if(selectedCampuses.length == 0){
+        // add an error message
+        output.textContent = "Por favor select at least one campuso"
+        // exit function so the rest of the forum doesn't submit
+        
+        return;
+    };
   
   // Let the user know if they choose many campuses but didn't put a note that they need to add a note
 
