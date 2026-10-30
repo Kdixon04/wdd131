@@ -75,12 +75,14 @@ form.addEventListener("submit", function (event) {
         // add an error message
         output.textContent = "Por favor select at least one campuso"
         // exit function so the rest of the forum doesn't submit
-        
+
         return;
     };
   
   // Let the user know if they choose many campuses but didn't put a note that they need to add a note
-
+    if(type === "many" && selectedCampuses.length < 2){
+        output.textContent = "You bumbling bufoon, you haven't selected 2 or more campuses. DO IT! CAST IT INTO THE CONSOLE LOG";
+    }
   
   //Let the user know if they choose many campus but only had one campus selected that they need to choose at least two campuses
   
