@@ -30,18 +30,18 @@
             <option value="Student">Student</option>
             <option value="Guest">Guest</option>
         </select>
+        </div>
         <div class="field">
             <label for="calendar">Event Date</label>
             <input type="date" id="calendar" name="start-date" placeholder="mm/dd/yyyy">
         </div> 
-        </div>
         <div id="student-details" hidden>
             <label for="student-id">Student I#</label>
-            <input id="student-id">
+            <input id="student-id" placeholder="12345678" minlength="8" maxlength="8">
         </div>
         <div id="guest-details" hidden>
             <label for="guest-code">Access Code</label>
-            <input id="guest-code">
+            <input id="guest-code" placeholder="12345678" minlength="8" maxlength="">
         </div>
         
         <button type="submit" id="submit">Submit Ticket</button>
