@@ -62,7 +62,7 @@ form{
 #guest-details input{
     font: inherit;
     padding: 0.55rem;
-    min-height: 3rem;
+    min-height: 2rem;
 }
 
 #student-details[hidden],
