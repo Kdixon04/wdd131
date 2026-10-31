@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Form</title>
+    <link href="eventform.css" rel="stylesheet">
+    <script src="eventform.js" defer></script>
+</head>
+<body>
+<h1>Event Ticket</h1>
+    <form>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="John" name="firstName" required="true">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" placeholder="Doe" name="lastName" required="true">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="something@email.com" required="true">
+        <label for="whoareYou">Type</label>
+        <select name="whoareYou" id="whoareYou">
+            <option value="Student">Student</option>
+            <option value="Guest">Guest</option>
+        </select> 
+        <label for="calendar">Event Date</label>
+        <input type="date" id="start-date" name="start-date" placeholder="mm/dd/yyyy">
+
+
+    </form>
+    
+</body>
+</html>
