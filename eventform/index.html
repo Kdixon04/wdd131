@@ -25,11 +25,16 @@
         </div>
         <div class="field">
         <label for="whoareYou">Type</label>
-        <select name="whoareYou" id="whoareYou">
+        <select name="whoareYou" id="whoareYou" required="true">
             <option value="">Choose Option</option>
             <option value="Student">Student</option>
             <option value="Guest">Guest</option>
-        </select> 
+        </select>
+        <div class="field">
+            <label for="calendar">Event Date</label>
+            <input type="date" id="calendar" name="start-date" placeholder="mm/dd/yyyy">
+        </div> 
+        </div>
         <div id="student-details" hidden>
             <label for="student-id">Student I#</label>
             <input id="student-id">
@@ -38,10 +43,7 @@
             <label for="guest-code">Access Code</label>
             <input id="guest-code">
         </div>
-        <div class="field">
-            <label for="calendar">Event Date</label>
-            <input type="date" id="calendar" name="start-date" placeholder="mm/dd/yyyy">
-        </div>
+        
         <button type="submit" id="submit">Submit Ticket</button>
 
     </form>
