@@ -37,10 +37,15 @@ form{
 .field select{
     font: inherit;
     padding: 0.75rem;
-    min-height: 3rem;
+    min-height: 2.5rem;
 }
 #submit{
     font: inherit;
     padding: 0.75rem;
     min-height: 3rem;
+}
+.field input[type="date"] {
+    font: inherit;
+    padding: 0.5rem;
+    min-height: 1.6rem;
 }
