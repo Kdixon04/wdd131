@@ -1,8 +1,19 @@
 body{
-    margin: 0;
+    /* background-color: rgb(59, 59, 252); */
 }
 form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    gap: 0.5rem;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.email{
+    grid-column: 1/-1;
+}
+#submit{
+    grid-column: 1/-1;
 }
