@@ -1,5 +1,13 @@
 body{
-    /* background-color: rgb(59, 59, 252); */
+    background-color: lightblue;
+}
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    min-height: 90%;
 }
 form{
     display: grid;
