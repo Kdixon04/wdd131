@@ -34,8 +34,12 @@ form{
     font-size: 1.25rem;
 }
 .field input,
-.field select,
-.field button {
+.field select{
+    font: inherit;
+    padding: 0.75rem;
+    min-height: 3rem;
+}
+#submit{
     font: inherit;
     padding: 0.75rem;
     min-height: 3rem;
