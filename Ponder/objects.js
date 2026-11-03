@@ -23,6 +23,7 @@ const aCourse = {
         this.sections.forEach(section =>{
             if(section.sectionNum === sectionNumber) {
                 section.enrolled++;
+                console.log("Does this work?")
             }
         });
         // increment enrollment of that section by 1
