@@ -21,13 +21,13 @@ const aCourse = {
     enrollStudent: function(sectionNumber){
         // Find the correct section in the array based on sectionNumber passed in 
         this.sections.forEach(section =>{
-            if(section.sectionNum === sectionNumber) {
+            if(section.sectionNum == sectionNumber) {
                 section.enrolled++;
                 console.log("Does this work?")
             }
         });
         // increment enrollment of that section by 1
-
+        renderSections(this.sections);
     }
 }
 
