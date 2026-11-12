@@ -24,4 +24,27 @@ img {
 hr{
     margin-top: 50px;
 }
+
+.gallery{
+    flex-wrap: wrap;
+
+}
               
+/* New CSS rules for larger screens */
+@media screen and (min-width: 500px){
+    .media-card {
+        display: flex;
+        gap: 15px;
+        align-items: start;
+    }
+
+    .gallery {
+        display: flex;
+        gap: 5%        
+    }
+
+    .gallery .media-card {
+        width: 47%;
+        
+    }
+}
