@@ -84,6 +84,17 @@ document.querySelector("#searchButton").addEventListener("click", e => {
     const filteredHikes = hikes.filter(hike => {
         return hike.name.toLowerCase().includes(userInput);
     });
+    // 3a. sort filtered array by hike difficulty
+    const sortedHikes = hikes.sort(sortHikes);
+
     // 4. display filtered results 
-    
+
 });
+
+// custom sort function
+function sortHikes(a, b){
+    if(a.difficulty < b.difficulty){
+        return 1;
+    }
+    return 0;
+}
