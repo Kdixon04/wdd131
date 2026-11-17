@@ -73,3 +73,14 @@ const hikes = [
   }
 ];
                 
+// Story: When user clicks button, display hikes that match what they typed
+
+// 1. Event Listener on button
+document.querySelector("#searchButton").addEventListener(e => {
+    // 2. grab they typed
+    const userInput = document.querySelector("#search").value.toLowerCase();
+    console.log(userInput);
+    // 3. filter array by matching what they typed
+
+// 4. display filtered results 
+})
