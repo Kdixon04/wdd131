@@ -94,6 +94,8 @@ document.querySelector("#searchButton").addEventListener("click", e => {
 // custom sort function
 function sortHikes(a, b){
     if(a.difficulty < b.difficulty){
+        return -1;
+    } else if(a.difficulty > b.difficulty){
         return 1;
     }
     return 0;
